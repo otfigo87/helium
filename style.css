@@ -26,6 +26,32 @@ body {
   color: rgb(246, 246, 246);
   min-height: 100vh;
 }
+
+.mouse {
+  position: absolute;
+  border-radius: 1500px;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+}
+
+#cursor{
+  height: 14px;
+  width: 14px;
+  background: #2128bd;
+}
+#mouse1{
+  height: 100px;
+  width: 100px;
+  background: white;
+  transition: 0.1s ease;
+}
+#mouse2{
+  height: 200px;
+  width: 200px;
+  background: rgb(47, 46, 46);
+  transition: 0.2s ease;
+}
+
 nav {
   display: grid;
   grid-template-columns: 50% 50%;
